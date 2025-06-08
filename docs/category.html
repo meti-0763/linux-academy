@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/output.css">
+    <link rel="stylesheet" href="../font/all.min.css">
+</head>
+<body>
+
+    <div class="container m-auto font-bold    ">
+
+    <nav class="bg-white dark:bg-gray-900  w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo">
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+        </a>
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button>
+            <button data-collapse-toggle="navbar-sticky" id="targetEl" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+      
+<div class="catg-contents">
+
+
+    <div class="roter my-8   "></div>
+
+<div class="catg_filters flex justify-between items-center  ">
+<p>Showing 1–10 of 60 results  </p>
+<div class="flex">
+    <button type="button" class="text-gray-900 bg-white border border-gray-300  font-bold rounded-full text-sm px-5 py-2.5 me-2 mb-2  "><i class="fa-solid fa-filter-list"></i> filter  </button>
+
+    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-gray-900 bg-white border border-gray-300 font-bold rounded-full text-sm px-5 py-2.5 me-2 mb-2  inline-flex items-baseline " type="button">SORT BY POPULARITY<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+        </svg>
+        </button>
+        
+        <!-- Dropdown menu -->
+        <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
+              </li>
+            </ul>
+        </div>
+        
+</div>
+</div>
+
+<div class="sub_filter_cagt flex w-full hidden  ">
+
+    <div class="w-4/12">
+        <div class="p-4 ">
+            <button id="dropdownSearchButton" data-dropdown-toggle="dropdownSearch_22" class="flex w-full   items-center px-4 justify-between  py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg" type="button">Categories<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+              </svg></button>
+            
+            <!-- Dropdown menu -->
+            <div id="dropdownSearch_22" class="z-10 hidden bg-white rounded-lg h-fit relative    shadow-sm ">
+            
+                <ul class=" px-3 pb-3  text-sm text-gray-700 dark:text-gray-200 " aria-labelledby="dropdownSearchButton">
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-11" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-11" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Bonnie Green</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                        <input checked id="checkbox-item-12" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                        <label for="checkbox-item-12" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Jese Leos</label>
+                      </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-13" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-13" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Michael Gough</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-14" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-14" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Robert Wall</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-15" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-15" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Joseph Mcfall</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-16" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-16" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Leslie Livingston</label>
+                    </div>
+                  </li>
+                        <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-17" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-17" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Roberta Casas</label>
+                    </div>
+                  </li>
+                </ul>
+            
+            </div>
+        </div>
+    </div>
+    <div class="w-4/12">
+        <div class="p-4 ">
+            <button id="dropdownSearchButton_1" data-dropdown-toggle="dropdownSearch" class="flex w-full   items-center px-4 justify-between  py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg" type="button">Categories<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+              </svg></button>
+            
+            <!-- Dropdown menu -->
+            <div id="dropdownSearch" class="z-10 hidden bg-white rounded-lg h-fit relative    shadow-sm ">
+            
+                <ul class=" px-3 pb-3  text-sm text-gray-700 dark:text-gray-200 " aria-labelledby="dropdownSearchButton_1">
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-11" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-11" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Bonnie Green</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                        <input checked id="checkbox-item-12" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                        <label for="checkbox-item-12" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Jese Leos</label>
+                      </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-13" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-13" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Michael Gough</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-14" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-14" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Robert Wall</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-15" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-15" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Joseph Mcfall</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-16" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-16" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Leslie Livingston</label>
+                    </div>
+                  </li>
+                        <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-17" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-17" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Roberta Casas</label>
+                    </div>
+                  </li>
+                </ul>
+            
+            </div>
+        </div>
+    </div>
+    <div class="w-4/12">
+        <div class="p-4 ">
+            <button id="dropdownSearchButton_1" data-dropdown-toggle="dropdownSearch3" class="flex w-full   items-center px-4 justify-between  py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg" type="button">Categories<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+              </svg></button>
+            
+            <!-- Dropdown menu -->
+            <div id="dropdownSearch3" class="z-10 hidden bg-white rounded-lg h-fit relative    shadow-sm ">
+            
+                <ul class=" px-3 pb-3  text-sm text-gray-700 dark:text-gray-200 " aria-labelledby="dropdownSearchButton_1">
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-11" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-11" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Bonnie Green</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                        <input checked id="checkbox-item-12" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                        <label for="checkbox-item-12" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Jese Leos</label>
+                      </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-13" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-13" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Michael Gough</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-14" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-14" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Robert Wall</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-15" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-15" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Joseph Mcfall</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-16" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-16" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Leslie Livingston</label>
+                    </div>
+                  </li>
+                        <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-17" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-17" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Roberta Casas</label>
+                    </div>
+                  </li>
+                </ul>
+            
+            </div>
+        </div>
+    </div>
+    <div class="w-4/12">
+        <div class="p-4 ">
+            <button id="dropdownSearchButton_1" data-dropdown-toggle="dropdownSearch4" class="flex w-full   items-center px-4 justify-between  py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg" type="button">Categories<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+              </svg></button>
+            
+            <!-- Dropdown menu -->
+            <div id="dropdownSearch4" class="z-10 hidden bg-white rounded-lg h-fit relative    shadow-sm ">
+            
+                <ul class=" px-3 pb-3  text-sm text-gray-700 dark:text-gray-200 " aria-labelledby="dropdownSearchButton_1">
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-11" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-11" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Bonnie Green</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                        <input checked id="checkbox-item-12" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                        <label for="checkbox-item-12" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Jese Leos</label>
+                      </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-13" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-13" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Michael Gough</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-14" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-14" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Robert Wall</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-15" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-15" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Joseph Mcfall</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-16" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-16" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Leslie Livingston</label>
+                    </div>
+                  </li>
+                        <li>
+                    <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+                      <input id="checkbox-item-17" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <label for="checkbox-item-17" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Roberta Casas</label>
+                    </div>
+                  </li>
+                </ul>
+            
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+<div class="catg_courses w-full ">
+    <div class=" couser-items grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="sec3_course_box border  p-2 border-gray-400 rounded-2xl  ">
+          <div class="sec3_course_box-head relative ">
+            <img class="h-auto max-w-full rounded-lg " src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
+          <div class="absolute w-full flex justify-center items-center  top-[80%]    gap-0.5   ">
+            <p class="text-black bg backdrop-blur-3xl  px-1.5  py-1    rounded-2xl bg-[rgba(246, 246, 246, 0.2)]   ">17 Lessons</p>
+            <p class="text-black bg backdrop-blur-3xl px-1.5  py-1    rounded-2xl  bg-[rgba(246, 246, 246, 0.2)]  ">17 Lessons</p>
+            <p class="text-black bg backdrop-blur-3xl px-1.5  py-1    rounded-2xl  bg-[rgba(246, 246, 246, 0.2)]  ">17 Lessons</p>
+          </div>
+          </div>
+      
+          <div class="sec3_course_box-main flex">
+            <div class="box-content my-3   ">
+              <h4 class="text-2xl font-black ">Learn Figma from Basic</h4>
+              <div class="content_teacher flex gap-3 items-center my-2.5  ">
+                <i class="fa-regular fa-chalkboard-user text-primary-800 text-lg  "></i> 
+                  <span class="text-gray-700 font-black text-base     ">linus torovalds</span>
+              </div>
+              <div class="content-level flex">
+                <button type="button" class="text-gray-700  bg-[#F5F5F6]   font-black  rounded-full text-lg  py-2 px-4         text-center me-2 mb-2 "> <i class="fa-solid fa-signal-bars"></i> beginner </button>
+                <div class="flex -space-x-4 rtl:space-x-reverse">
+                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-1.png" alt="">
+                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-2.png" alt="">
+                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-3.png" alt="">
+                  <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-700 border-2 border-white rounded-full hover:bg-gray-600 dark:border-gray-800" href="#">+99</a>
+              </div>
+              </div>
+              <div class="content-price">
+                <span class="text-primary-800 font-black text-xl ">$25 </span><span>/lifetime</span>
+              </div>
+            </div>
+              <div class="box-star"></div>
+          </div>
+        </div>
+        <div class="sec3_course_box border  p-2 border-gray-400 rounded-2xl  ">
+          <div class="sec3_course_box-head relative ">
+            <img class="h-auto max-w-full rounded-lg " src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
+          <div class="absolute w-full flex justify-center items-center  top-[80%]    gap-0.5   ">
+            <p class="text-black bg backdrop-blur-3xl  px-1.5  py-1    rounded-2xl bg-[rgba(246, 246, 246, 0.2)]   ">17 Lessons</p>
+            <p class="text-black bg backdrop-blur-3xl px-1.5  py-1    rounded-2xl  bg-[rgba(246, 246, 246, 0.2)]  ">17 Lessons</p>
+            <p class="text-black bg backdrop-blur-3xl px-1.5  py-1    rounded-2xl  bg-[rgba(246, 246, 246, 0.2)]  ">17 Lessons</p>
+          </div>
+          </div>
+      
+          <div class="sec3_course_box-main flex">
+            <div class="box-content my-3   ">
+              <h4 class="text-2xl font-black ">Learn Figma from Basic</h4>
+              <div class="content_teacher flex gap-3 items-center my-2.5  ">
+                <i class="fa-regular fa-chalkboard-user text-primary-800 text-lg  "></i> 
+                  <span class="text-gray-700 font-black text-base     ">linus torovalds</span>
+              </div>
+              <div class="content-level flex">
+                <button type="button" class="text-gray-700  bg-[#F5F5F6]   font-black  rounded-full text-lg  py-2 px-4         text-center me-2 mb-2 "> <i class="fa-solid fa-signal-bars"></i> beginner </button>
+                <div class="flex -space-x-4 rtl:space-x-reverse">
+                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-1.png" alt="">
+                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-2.png" alt="">
+                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-3.png" alt="">
+                  <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-700 border-2 border-white rounded-full hover:bg-gray-600 dark:border-gray-800" href="#">+99</a>
+              </div>
+              </div>
+              <div class="content-price">
+                <span class="text-primary-800 font-black text-xl ">$25 </span><span>/lifetime</span>
+              </div>
+            </div>
+              <div class="box-star"></div>
+          </div>
+        </div>
+        <div class="sec3_course_box border  p-2 border-gray-400 rounded-2xl  ">
+          <div class="sec3_course_box-head relative ">
+            <img class="h-auto max-w-full rounded-lg " src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
+          <div class="absolute w-full flex justify-center items-center  top-[80%]    gap-0.5   ">
+            <p class="text-black bg backdrop-blur-3xl  px-1.5  py-1    rounded-2xl bg-[rgba(246, 246, 246, 0.2)]   ">17 Lessons</p>
+            <p class="text-black bg backdrop-blur-3xl px-1.5  py-1    rounded-2xl  bg-[rgba(246, 246, 246, 0.2)]  ">17 Lessons</p>
+            <p class="text-black bg backdrop-blur-3xl px-1.5  py-1    rounded-2xl  bg-[rgba(246, 246, 246, 0.2)]  ">17 Lessons</p>
+          </div>
+          </div>
+      
+          <div class="sec3_course_box-main flex">
+            <div class="box-content my-3   ">
+              <h4 class="text-2xl font-black ">Learn Figma from Basic</h4>
+              <div class="content_teacher flex gap-3 items-center my-2.5  ">
+                <i class="fa-regular fa-chalkboard-user text-primary-800 text-lg  "></i> 
+                  <span class="text-gray-700 font-black text-base     ">linus torovalds</span>
+              </div>
+              <div class="content-level flex">
+                <button type="button" class="text-gray-700  bg-[#F5F5F6]   font-black  rounded-full text-lg  py-2 px-4         text-center me-2 mb-2 "> <i class="fa-solid fa-signal-bars"></i> beginner </button>
+                <div class="flex -space-x-4 rtl:space-x-reverse">
+                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-1.png" alt="">
+                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-2.png" alt="">
+                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-3.png" alt="">
+                  <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-700 border-2 border-white rounded-full hover:bg-gray-600 dark:border-gray-800" href="#">+99</a>
+              </div>
+              </div>
+              <div class="content-price">
+                <span class="text-primary-800 font-black text-xl ">$25 </span><span>/lifetime</span>
+              </div>
+            </div>
+              <div class="box-star"></div>
+          </div>
+        </div>
+      
+      </div>
+</div>
+<div class="catg_paganition flex justify-center mt-5 ">
+    <nav aria-label="Page navigation example">
+        <ul class="inline-flex -space-x-px text-sm">
+          <li>
+            <a href="#" class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">2</a>
+          </li>
+          <li>
+            <a href="#" aria-current="page" class="flex items-center justify-center px-3 h-8 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white">3</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">4</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">5</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Next</a>
+          </li>
+        </ul>
+      </nav>
+</div>
+
+</div>
+    
+    </div>
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+<script src="../js/app.js" type="module"></script>
+<script src="../js/global.js" type="module"></script>
+</body>
+</html>
