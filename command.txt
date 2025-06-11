@@ -1,1 +1,163 @@
 npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch
+
+<div class="main_overview ">
+<div class="over-sec-1 py-5  ">
+
+  <h3 class="text-3xl font-extrabold ">Course Overview</h3>
+  <p class="mt-4 text-gray-600 font-bold   ">t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
+
+    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+</div>
+
+<div class="over-sec2 mt-7 ">
+  <h3 class="text-3xl font-extrabold ">What You Will Learn</h3>
+ 
+  <div class=" flex max-h-96 mt-6 w-full flex-wrap ">
+    <div class="flex text-xl items-baseline mt-4  w-6/12  ">
+      <p class="bg-primary-600  text-white rounded-full w-6 h-6 flex items-center justify-center p-4    ">
+        <i class="fa-solid fa-check     "></i>
+
+      </p>
+      <p class="font-bold text-2xl ml-2  ">Become a UX designer</p>
+    </div>
+    <div class="flex text-xl items-baseline mt-4  w-6/12  ">
+      <p class="bg-primary-600  text-white rounded-full w-6 h-6 flex items-center justify-center p-4    ">
+        <i class="fa-solid fa-check     "></i>
+
+      </p>
+      <p class="font-bold text-2xl ml-2  ">Become a UX designer</p>
+    </div>
+    <div class="flex text-xl items-baseline mt-4   w-6/12  ">
+      <p class="bg-primary-600  text-white rounded-full w-6 h-6 flex items-center justify-center p-4    ">
+        <i class="fa-solid fa-check     "></i>
+
+      </p>
+      <p class="font-bold text-2xl ml-2  ">Become a UX designer</p>
+    </div>
+
+  </div>
+</div>
+<div class="over-sec3 mt-7 ">
+  <h3 class="text-3xl font-extrabold mt-20    ">Requirements</h3>
+ 
+  <div class="  max-h-96 mt-6  ">
+    <div class="flex text-xl items-baseline mt-4  w-full ">
+      <p class="bg-primary-600  text-white rounded-full w-6 h-6 flex items-center justify-center p-4    ">
+        <i class="fa-solid fa-check     "></i>
+
+      </p>
+      <p class="font-bold text-2xl ml-2  ">You will need a copy of Figma. A free trial can be downloaded from Figma.</p>
+    </div>
+    <div class="flex text-xl items-baseline mt-4  w-full ">
+      <p class="bg-primary-600  text-white rounded-full w-6 h-6 flex items-center justify-center p-4    ">
+        <i class="fa-solid fa-check     "></i>
+
+      </p>
+      <p class="font-bold text-2xl ml-2  ">Become a UX designer</p>
+    </div>
+    <div class="flex text-xl items-baseline mt-4  w-full ">
+      <p class="bg-primary-600  text-white rounded-full w-6 h-6 flex items-center justify-center p-4    ">
+        <i class="fa-solid fa-check     "></i>
+
+      </p>
+      <p class="font-bold text-2xl ml-2  ">Become a UX designer</p>
+    </div>
+
+
+  </div>
+</div>
+
+</div>
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////Overview
+/////////////////////////////////////////////////////////////////////////////////////////////////////Overview
+/////////////////////////////////////////////////////////////////////////////////////////////////////Overview
+/////////////////////////////////////////////////////////////////////////////////////////////////////about
+
+<div class="about-course mt-6  ">
+  <div class="play flex justify-between border border-[1px] rounded-xl  items-center  my-2.5 border-primary-300 ">
+    <div class="play_title p-2  ">  
+      <div class="flex text-xl items-baseline mt-4    ">
+      <p class="bg-primary-600  text-white rounded-full w-6 h-6 flex items-center justify-center p-4    ">
+        <i class="fa-solid fa-check     "></i>
+
+      </p>
+      <p class="font-bold text-2xl ml-2  ">Become a UX designer</p>
+    </div>
+  </div>
+    <div class="play_btn mr-2  ">
+
+      <button class="border border-[1px] rounded-xl  items-baseline  border-primary-600   text-xl   p-2 text-primary-600 ">play</button>
+
+    </div>
+  </div>
+  <div class="play flex justify-between border border-[1px] rounded-xl  items-center  my-2.5 border-primary-300 ">
+    <div class="play_title p-2  ">  
+      <div class="flex text-xl items-baseline mt-4    ">
+      <p class="bg-primary-600  text-white rounded-full w-6 h-6 flex items-center justify-center p-4    ">
+        <i class="fa-solid fa-check     "></i>
+
+      </p>
+      <p class="font-bold text-2xl ml-2  ">Become a UX designer</p>
+    </div>
+  </div>
+    <div class="play_btn mr-2  ">
+
+      <button class="border border-[1px] rounded-xl  items-baseline  border-primary-600   text-xl   p-2 text-primary-600 ">play</button>
+
+    </div>
+  </div>
+</div>
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////Overview
+/////////////////////////////////////////////////////////////////////////////////////////////////////Overview
+/////////////////////////////////////////////////////////////////////////////////////////////////////mentor
+/////////////////////////////////////////////////////////////////////////////////////////////////////mentor
+<div class="mentor mt-7 ">
+<div class="mento-icon flex justify-between ">
+
+<div class="flex items-center gap-4">
+  <img class="w-10 h-10 rounded-full" src="../img/global/avatar/Ellipse-1.png" alt="">
+  <div class="font-medium dark:text-white">
+      <div>Jese Leos</div>
+      <div class="text-sm text-gray-500 dark:text-gray-400">Joined in August 2014</div>
+  </div>
+</div>
+
+<button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-bold   bg-primary-600 text-white rounded-full border border-primary-600  hover:text-blue-700 ">massage</button>
+
+</div>
+
+<div class="info-2 flex  justify-between my-3.5  border-t pt-4  border-primary-300    ">
+  <div class="comments">
+    <div class="stars text-amber-300 inline  ">
+    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+  </div>
+<span>4.5 (2.1K Reviews)</span>
+</div>
+  <div class="more-info flex gap-2.5 ">
+    <div class="info-box1 text-xl  ">
+      <i class="fa-solid fa-circle-video"></i>
+      <span class="mx-1.5  ">12 Videos</span>
+    </div>
+    <div class="info-box1 text-xl  ">
+      <i class="fa-solid fa-user"></i>
+      <span class="mx-1.5  ">65 Students</span>
+    </div>
+
+</div>
+</div>
+
+<p class="text-gray-600 text-xl mt-5    ">
+  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 
+
+Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+</p>
+</div>
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////mentor
+/////////////////////////////////////////////////////////////////////////////////////////////////////mentor
+/////////////////////////////////////////////////////////////////////////////////////////////////////comments 
+/////////////////////////////////////////////////////////////////////////////////////////////////////comments 
+
+
