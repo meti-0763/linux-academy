@@ -22,7 +22,7 @@ const  navigation_data = async ()=>{
 
    btn_start.setAttribute("href","index.html")
 
-   console.log(userinfo);
+  //  console.log(userinfo);
    
 
   }else{
@@ -30,8 +30,6 @@ const  navigation_data = async ()=>{
   }
 
 }     
-
-        
 
 
 

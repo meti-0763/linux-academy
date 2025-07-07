@@ -23,7 +23,6 @@ const isLogin = ()=>{
 
     let loginInfos = gettoken() 
 
-    console.log(loginInfos);
    
     if(loginInfos){
         return  true
@@ -34,4 +33,13 @@ const isLogin = ()=>{
 
 } 
 
-export{getlecalstorag,setlecalstorag,gettoken , isLogin}
+const UrlParams = (key)=>{
+
+    const params = new URLSearchParams(window.location.search);
+
+    console.log(params.get(key));    
+
+
+}
+
+export{getlecalstorag,setlecalstorag,gettoken , isLogin , UrlParams}
