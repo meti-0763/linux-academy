@@ -6,7 +6,7 @@ import {navigation_data } from "./funcs/shared-componnent.js";
 
 
 
-window.addEventListener("load", ()=>{
+window.addEventListener("DOMContentLoaded", ()=>{
 
     navigation_data()
     UrlParams("cat")

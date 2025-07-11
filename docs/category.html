@@ -10,6 +10,8 @@
 </head>
 <body>
 
+  <a href="course.html?name"></a>
+
     <div class="container m-auto font-bold    ">
 
     <nav class="bg-white dark:bg-gray-900  w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
@@ -19,7 +21,7 @@
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
         </a>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button>
+          <a href="rigster.html" id="btngetstart">   <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button></a>
             <button data-collapse-toggle="navbar-sticky" id="targetEl" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
               <span class="sr-only">Open main menu</span>
               <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -56,25 +58,23 @@
 <div class="flex">
     <button type="button" class="text-gray-900 bg-white border border-gray-300  font-bold rounded-full text-sm px-5 py-2.5 me-2 mb-2  "><i class="fa-solid fa-filter-list"></i> filter  </button>
 
-    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-gray-900 bg-white border border-gray-300 font-bold rounded-full text-sm px-5 py-2.5 me-2 mb-2  inline-flex items-baseline " type="button">SORT BY POPULARITY<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-        </svg>
+    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-gray-900 bg-white border border-gray-300 font-bold rounded-full text-sm px-5 py-2.5 me-2 mb-2  inline-flex items-baseline " type="button">dddd
         </button>
         
         <!-- Dropdown menu -->
         <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
-              <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+              <li class="dp11" data-filter="nj">
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">POPULARITY</a>
               </li>
-              <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+              <li class="dp11" data-filter="">
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">first</a>
               </li>
-              <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+              <li class="dp11" data-filter="">
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">free</a>
               </li>
-              <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
+              <li class="dp11" data-filter="">
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">not free</a>
               </li>
             </ul>
         </div>
@@ -320,106 +320,9 @@
 
 </div>
 <div class="catg_courses w-full ">
-    <div class=" couser-items grid grid-cols-2 md:grid-cols-3 gap-4">
-        <div class="sec3_course_box border  p-2 border-gray-400 rounded-2xl  ">
-          <div class="sec3_course_box-head relative ">
-            <img class="h-auto max-w-full rounded-lg " src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
-          <div class="absolute w-full flex justify-center items-center  top-[80%]    gap-0.5   ">
-            <p class="text-black bg backdrop-blur-3xl  px-1.5  py-1    rounded-2xl bg-[rgba(246, 246, 246, 0.2)]   ">17 Lessons</p>
-            <p class="text-black bg backdrop-blur-3xl px-1.5  py-1    rounded-2xl  bg-[rgba(246, 246, 246, 0.2)]  ">17 Lessons</p>
-            <p class="text-black bg backdrop-blur-3xl px-1.5  py-1    rounded-2xl  bg-[rgba(246, 246, 246, 0.2)]  ">17 Lessons</p>
-          </div>
-          </div>
-      
-          <div class="sec3_course_box-main flex">
-            <div class="box-content my-3   ">
-              <h4 class="text-2xl font-black ">Learn Figma from Basic</h4>
-              <div class="content_teacher flex gap-3 items-center my-2.5  ">
-                <i class="fa-regular fa-chalkboard-user text-primary-800 text-lg  "></i> 
-                  <span class="text-gray-700 font-black text-base     ">linus torovalds</span>
-              </div>
-              <div class="content-level flex">
-                <button type="button" class="text-gray-700  bg-[#F5F5F6]   font-black  rounded-full text-lg  py-2 px-4         text-center me-2 mb-2 "> <i class="fa-solid fa-signal-bars"></i> beginner </button>
-                <div class="flex -space-x-4 rtl:space-x-reverse">
-                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-1.png" alt="">
-                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-2.png" alt="">
-                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-3.png" alt="">
-                  <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-700 border-2 border-white rounded-full hover:bg-gray-600 dark:border-gray-800" href="#">+99</a>
-              </div>
-              </div>
-              <div class="content-price">
-                <span class="text-primary-800 font-black text-xl ">$25 </span><span>/lifetime</span>
-              </div>
-            </div>
-              <div class="box-star"></div>
-          </div>
-        </div>
-        <div class="sec3_course_box border  p-2 border-gray-400 rounded-2xl  ">
-          <div class="sec3_course_box-head relative ">
-            <img class="h-auto max-w-full rounded-lg " src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
-          <div class="absolute w-full flex justify-center items-center  top-[80%]    gap-0.5   ">
-            <p class="text-black bg backdrop-blur-3xl  px-1.5  py-1    rounded-2xl bg-[rgba(246, 246, 246, 0.2)]   ">17 Lessons</p>
-            <p class="text-black bg backdrop-blur-3xl px-1.5  py-1    rounded-2xl  bg-[rgba(246, 246, 246, 0.2)]  ">17 Lessons</p>
-            <p class="text-black bg backdrop-blur-3xl px-1.5  py-1    rounded-2xl  bg-[rgba(246, 246, 246, 0.2)]  ">17 Lessons</p>
-          </div>
-          </div>
-      
-          <div class="sec3_course_box-main flex">
-            <div class="box-content my-3   ">
-              <h4 class="text-2xl font-black ">Learn Figma from Basic</h4>
-              <div class="content_teacher flex gap-3 items-center my-2.5  ">
-                <i class="fa-regular fa-chalkboard-user text-primary-800 text-lg  "></i> 
-                  <span class="text-gray-700 font-black text-base     ">linus torovalds</span>
-              </div>
-              <div class="content-level flex">
-                <button type="button" class="text-gray-700  bg-[#F5F5F6]   font-black  rounded-full text-lg  py-2 px-4         text-center me-2 mb-2 "> <i class="fa-solid fa-signal-bars"></i> beginner </button>
-                <div class="flex -space-x-4 rtl:space-x-reverse">
-                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-1.png" alt="">
-                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-2.png" alt="">
-                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-3.png" alt="">
-                  <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-700 border-2 border-white rounded-full hover:bg-gray-600 dark:border-gray-800" href="#">+99</a>
-              </div>
-              </div>
-              <div class="content-price">
-                <span class="text-primary-800 font-black text-xl ">$25 </span><span>/lifetime</span>
-              </div>
-            </div>
-              <div class="box-star"></div>
-          </div>
-        </div>
-        <div class="sec3_course_box border  p-2 border-gray-400 rounded-2xl  ">
-          <div class="sec3_course_box-head relative ">
-            <img class="h-auto max-w-full rounded-lg " src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
-          <div class="absolute w-full flex justify-center items-center  top-[80%]    gap-0.5   ">
-            <p class="text-black bg backdrop-blur-3xl  px-1.5  py-1    rounded-2xl bg-[rgba(246, 246, 246, 0.2)]   ">17 Lessons</p>
-            <p class="text-black bg backdrop-blur-3xl px-1.5  py-1    rounded-2xl  bg-[rgba(246, 246, 246, 0.2)]  ">17 Lessons</p>
-            <p class="text-black bg backdrop-blur-3xl px-1.5  py-1    rounded-2xl  bg-[rgba(246, 246, 246, 0.2)]  ">17 Lessons</p>
-          </div>
-          </div>
-      
-          <div class="sec3_course_box-main flex">
-            <div class="box-content my-3   ">
-              <h4 class="text-2xl font-black ">Learn Figma from Basic</h4>
-              <div class="content_teacher flex gap-3 items-center my-2.5  ">
-                <i class="fa-regular fa-chalkboard-user text-primary-800 text-lg  "></i> 
-                  <span class="text-gray-700 font-black text-base     ">linus torovalds</span>
-              </div>
-              <div class="content-level flex">
-                <button type="button" class="text-gray-700  bg-[#F5F5F6]   font-black  rounded-full text-lg  py-2 px-4         text-center me-2 mb-2 "> <i class="fa-solid fa-signal-bars"></i> beginner </button>
-                <div class="flex -space-x-4 rtl:space-x-reverse">
-                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-1.png" alt="">
-                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-2.png" alt="">
-                  <img class="w-10 h-10  rounded-full dark:border-gray-800" src="../img/global/avatar/Ellipse-3.png" alt="">
-                  <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-700 border-2 border-white rounded-full hover:bg-gray-600 dark:border-gray-800" href="#">+99</a>
-              </div>
-              </div>
-              <div class="content-price">
-                <span class="text-primary-800 font-black text-xl ">$25 </span><span>/lifetime</span>
-              </div>
-            </div>
-              <div class="box-star"></div>
-          </div>
-        </div>
+    <div class=" couser-items grid grid-cols-2 md:grid-cols-3 gap-4" id="catgd">
+
+   
       
       </div>
 </div>
@@ -458,7 +361,7 @@
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
-<script src="../js/app.js" type="module"></script>
+<script src="../js/category.js" type="module"></script>
 <script src="../js/global.js" type="module"></script>
 </body>
 </html>

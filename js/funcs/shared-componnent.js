@@ -15,6 +15,9 @@ let btn_start = document.querySelector("#btngetstart")
 
 const  navigation_data = async ()=>{
 
+  console.log(btn_start);
+  
+
     if(isLogin()){
    let userinfo = await  get_me()
             
@@ -26,7 +29,7 @@ const  navigation_data = async ()=>{
    
 
   }else{
-    console.log("not found");
+    // console.log("not found");
   }
 
 }     

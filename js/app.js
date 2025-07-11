@@ -20,7 +20,11 @@ const  showallcourses = async ()=>{
 
     catgres.splice(0,6).forEach(element => {
 
-        let template = `  <div class="sec3_course_box border  p-2 border-gray-400 rounded-2xl  ">
+      console.log(element);
+      
+
+        let template = ` <div class="sec3_course_box border  p-2 border-gray-400 rounded-2xl  ">
+        <a href="course.html?cou=${element.shortName}" class="w-full">
     <div class="sec3_course_box-head relative ">
       <img class="h-auto w-full rounded-lg " src="http://localhost:4000/courses/covers/${element.cover}" alt="">
     <div class="absolute w-full flex justify-center items-center  top-[80%]    gap-0.5   ">
@@ -28,11 +32,11 @@ const  showallcourses = async ()=>{
       <p class="text-black bg backdrop-blur-3xl px-1.5  py-1    rounded-2xl  bg-[rgba(246, 246, 246, 0.2)]  ">17 Lessons</p>
       <p class="text-black bg backdrop-blur-3xl px-1.5  py-1    rounded-2xl  bg-[rgba(246, 246, 246, 0.2)]  ">17 Lessons</p>
     </div>
-    </div>
+    </div> </a>
 
-    <div class="sec3_course_box-main flex">
+  <div class="sec3_course_box-main flex">
       <div class="box-content my-3   ">
-        <h4 class="text-2xl font-black ">${element.name}</h4>
+         <a href="course.html?cou=${element.shortName}" class="w-full"> <h4 class="text-2xl font-black ">${element.name}</h4>    </a>
         <div class="content_teacher flex gap-3 items-center my-2.5  ">
           <i class="fa-regular fa-chalkboard-user text-primary-800 text-lg  "></i> 
             <span class="text-gray-700 font-black text-base     ">${element.creator}</span>
@@ -52,6 +56,7 @@ const  showallcourses = async ()=>{
       </div>
         <div class="box-star"></div>
     </div>
+
   </div>`
         
         courses_shows.insertAdjacentHTML("beforeend", template)
